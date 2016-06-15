@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Flipkart" parallel="tests" thread-count="1">
+
+		<test name="Login test">
+		    <classes>
+		        <class name="com.PageObjects.ParallelClass1"/>
+		    </classes>
+		</test>
+		<test name="Login test2">
+		    <classes>
+		        <class name="com.PageObjects.ParallelClass2"/>
+		    </classes>
+		</test>
+		
+	    	
+</suite>
